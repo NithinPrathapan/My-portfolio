@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import devImage from "./assets/devd.png";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -43,6 +44,13 @@ const App = () => {
           <AiFillTwitterCircle />
           <AiFillLinkedin />
           <AiFillYoutube />
+        </div>
+        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full   w-80 h-80 ">
+          <img
+            src={devImage}
+            alt="profile-image"
+            className=" w-full h-full  object-cover"
+          />
         </div>
       </section>
     </main>
