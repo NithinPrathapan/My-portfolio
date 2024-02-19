@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import devImage from "./assets/devd.png";
+import profile from "./assets/myimg.jpeg";
 import frontend from "./assets/frontend.png";
 import backend from "./assets/backend.png";
+import project from "./assets/project.webp";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -11,7 +12,7 @@ import {
 } from "react-icons/ai";
 const App = () => {
   return (
-    <main className="bg-white px-10 ">
+    <main className="bg-white px-5  md:px-20 lg:px-40 ">
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className="text-xl font-burtons">developedby</h1>
@@ -29,12 +30,12 @@ const App = () => {
             </li>
           </ul>
         </nav>
-        <div className="text-center p-10">
-          <h2 className="text-5xl py-2 text-teal-600 font-medium">
+        <div className="text-center w-full">
+          <h2 className="text-4xl  min-w-full py-2 md:text-6xl  text-center text-teal-600 font-medium">
             Nithin Prathpan
           </h2>
-          <h3 className="text-2xl py-2">Mern stack Developer</h3>
-          <p className="text-lg leading-8 text-gray-800">
+          <h3 className="text-2xl py-2 md:text-3xl ">Mern stack Developer</h3>
+          <p className="text-1 md:text-xl leading-8 text-gray-800  max-w-lg mx-auto">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quo
             laudantium dolorem, deleniti iste omnis repellendus voluptates
             veniam, at libero beatae. Cupiditate facere totam nulla quaerat
@@ -47,17 +48,17 @@ const App = () => {
           <AiFillLinkedin />
           <AiFillYoutube />
         </div>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full   w-80 h-80 ">
+        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full md:w-96 md:h-96   w-80 h-80 ">
           <img
-            src={devImage}
+            src={profile}
             alt="profile-image"
-            className=" w-full h-full  object-cover"
+            className=" w-full h-full  object-cover rounded-full"
           />
         </div>
       </section>
       <section>
         <div className="">
-          <h3 className="tex3xl">Services I offer</h3>
+          <h3 className="text-3xl">Services I offer</h3>
           <p className="text-lg leading-8 text-gray-800">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
             harum consequatur distinctio molestias praesentium! Id culpa
@@ -110,6 +111,35 @@ const App = () => {
             <p className="text-gray-800 py-1">Tailwind CSS</p>
             <p className="text-gray-800 py-1">Canva</p>
             <p className="text-gray-800 py-1">React-Bootstrap</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3 className="text-3xl py-1">Portfolio</h3>
+          <p className="text-lg leading-8 text-gray-800">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+            harum consequatur distinctio molestias praesentium! Id culpa Lorem
+            ipsum dolor sit amet consectetur, adipisicing elit. Commodi ipsum,
+            totam labore ullam eius quas!
+          </p>
+          <p className="text-lg leading-8 text-gray-800">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+            harum consequatur distinctio molestias praesentium! Id culpa
+          </p>
+        </div>
+        <div className="flex ">
+          <div className="">
+            <img src={project} alt="project" />
+          </div>
+          <div>
+            <img src={project} alt="project" />
+          </div>
+          <div>
+            <img src={project} alt="project" />
+          </div>
+          <div>
+            <img src={project} alt="project" />
           </div>
         </div>
       </section>
