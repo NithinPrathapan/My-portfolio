@@ -68,7 +68,7 @@ const App = () => {
             harum consequatur distinctio molestias praesentium! Id culpa
           </p>
         </div>
-        <div className="">
+        <div className="lg:flex gap-10">
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <img
               src={frontend}
@@ -128,18 +128,34 @@ const App = () => {
             harum consequatur distinctio molestias praesentium! Id culpa
           </p>
         </div>
-        <div className="flex ">
-          <div className="">
-            <img src={project} alt="project" />
+        <div className="flex flex-wrap md:gap-10 gap-4 py-10 lg:flex lg:flex-wrap">
+          <div className="flex-1  basis-1/3 ">
+            <img
+              className="rounded-lg object-cover w-full h-full"
+              src={project}
+              alt="project"
+            />
           </div>
-          <div>
-            <img src={project} alt="project" />
+          <div className="flex-1  basis-1/3 ">
+            <img
+              className="rounded-lg object-cover w-full h-full"
+              src={project}
+              alt="project"
+            />
           </div>
-          <div>
-            <img src={project} alt="project" />
+          <div className="flex-1  basis-1/3 ">
+            <img
+              className="rounded-lg object-cover w-full h-full"
+              src={project}
+              alt="project"
+            />
           </div>
-          <div>
-            <img src={project} alt="project" />
+          <div className="flex-1  basis-1/3 ">
+            <img
+              className="rounded-lg object-cover w-full h-full"
+              src={project}
+              alt="project"
+            />
           </div>
         </div>
       </section>
