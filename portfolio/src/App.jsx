@@ -434,15 +434,15 @@ const App = () => {
         </section>
         {/* CONTACT SECTION */}
       </main>
-      <section className="min-w- bg-blue-950 ">
+      <section className="min-w- bg-[#000] ">
         <div className="max-w-4xl text-center py-6 mx-auto">
           <h1 className="text-white text-3xl font-semibold underline underline-offset-4 mb-4 font-burtons tracking-wider ">
            Contact
           </h1>
-          <div className="w-[60%] my-6 items-center flex justify-between mx-auto">
+          <div className="md:w-[100%] w-[80%] md:px-4 px-2  items-center flex justify-between mx-auto">
             <div className="flex flex-col gap-2  text-white font-burtons">
-              <h1 className="text-3xl text-[#d7d3d3]">Let's Connect</h1>
-              <h1 className="text-2xl uppercase font-semibold">Digitally</h1>
+              <h1 className="md:text-3xl text-[#d7d3d3]">Let's Connect</h1>
+              <h1 className="md:text-2xl uppercase font-semibold">Digitally</h1>
               <div className="flex gap-2 items-center justify-center">
                 <svg className="w-10"
                   xmlns="http://www.w3.org/2000/svg"
@@ -575,19 +575,19 @@ const App = () => {
               </div>
             </div>
             <div className="text-center flex flex-col gap-1">
-              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide text-2xl font-burtons ">
+              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide md:text-2xl font-burtons ">
                 Email
               </h1>
-              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide text-2xl font-burtons ">
+              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide md:text-2xl font-burtons ">
                 Twitter
               </h1>
-              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide text-2xl font-burtons ">
+              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide md:text-2xl font-burtons ">
                 Linkedin
               </h1>
-              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide text-2xl font-burtons ">
+              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide md:text-2xl font-burtons ">
                 Facebook
               </h1>
-              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide text-2xl font-burtons ">
+              <h1 className="hover:underline decoration-slate-100 underline-offset-4 cursor-pointer text-white uppercase tracking-wide md:text-2xl font-burtons ">
                 Instagram
               </h1>
             </div>
