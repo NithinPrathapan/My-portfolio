@@ -4,7 +4,6 @@ import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 import profile from "./assets/myimg.jpeg";
 import frontend from "./assets/frontend.png";
 import backend from "./assets/backend.png";
-import project from "./assets/project.webp";
 import estate from "./assets/estate.png";
 import grocerry from "./assets/grocerry.png";
 import { useState } from "react";
@@ -146,11 +145,10 @@ const App = () => {
             </div>
           </div>
         </section>
-        {/* PROJECT SECTION */}
-       
+
         {/*Skills me section */}
         <section className=" text-center my-2 mx-auto justify-center">
-          <h3 className="text-3xl  dark:text-white font-semibold py-2">
+          <h3 className="text-3xl  dark:text-white font-semibold py-2 mb-2">
             Skills
           </h3>
 
@@ -186,6 +184,47 @@ const App = () => {
             </div>
           </div>
         </section>
+
+        {/* tech stacks section */}
+        <section>
+          <div className="py-2 mt-6 max-w-full mx-auto">
+            <h1 className="text-center uppercase font-semibold tracking-widest text-teal-500  text-[1.6rem]    ">
+              TECH I'M FAMILIAR WITH
+            </h1>
+            <div className="border-teal-500  border w-20 mt-[1px]  mx-auto"></div>
+            <div className="md:flex dark:text-slate-400 justify-around  py-10">
+              <ul className="text-center mb-2 flex gap-2 flex-col ">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+              </ul>
+              <ul className="text-center mb-2 flex gap-2 flex-col ">
+                <li>MongoDB</li>
+                <li>GIT</li>
+                <li>Java</li>
+                <li>Canva</li>
+                <li>SQL</li>
+              </ul>
+              <ul className="text-center mb-2 flex gap-2 flex-col">
+                <li>Express</li>
+                <li>Redux Toolkit</li>
+                <li>Firebase</li>
+                <li>Tailwind</li>
+              </ul>
+              <ul className="text-center mb-2 flex gap-2 flex-col ">
+                <li>SASS</li>
+                <li>Bootstrap</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Photoshop</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        {/* PROJECT SECTION */}
+
         <section>
           <div className="max-w-xl text-center my-2 mx-auto">
             <h3 className="text-3xl py-1 dark:text-white font-semibold ">
@@ -284,9 +323,6 @@ const App = () => {
               </div>
             </div>
           </div>
-        </section>
-        <section>
-
         </section>
       </main>
     </div>
