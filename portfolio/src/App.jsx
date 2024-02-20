@@ -193,32 +193,32 @@ const App = () => {
             </h1>
             <div className="border-teal-500  border w-20 mt-[1px]  mx-auto"></div>
             <div className="md:flex dark:text-slate-400 justify-around  py-10">
-              <ul className="text-center mb-2 flex gap-2 flex-col ">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
+              <ul className="text-center mb-2 flex gap-2 flex-col md:w-[25%] ">
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">HTML5</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">CSS3</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Javascript</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">React.js</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Node.js</li>
               </ul>
-              <ul className="text-center mb-2 flex gap-2 flex-col ">
-                <li>MongoDB</li>
-                <li>GIT</li>
-                <li>Java</li>
-                <li>Canva</li>
-                <li>SQL</li>
+              <ul className="text-center mb-2 flex gap-2 flex-col md:w-[25%] ">
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">MongoDB</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">GIT</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Java</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Canva</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">SQL</li>
               </ul>
-              <ul className="text-center mb-2 flex gap-2 flex-col">
-                <li>Express</li>
-                <li>Redux Toolkit</li>
-                <li>Firebase</li>
-                <li>Tailwind</li>
+              <ul className="text-center mb-2 flex gap-2 flex-col md:w-[25%]">
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Express</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Redux Toolkit</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Firebase</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Tailwind</li>
               </ul>
-              <ul className="text-center mb-2 flex gap-2 flex-col ">
-                <li>SASS</li>
-                <li>Bootstrap</li>
-                <li>C</li>
-                <li>C++</li>
-                <li>Photoshop</li>
+              <ul className="text-center mb-2 flex gap-2 flex-col md:w-[25%] ">
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">SASS</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Bootstrap</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">C</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">C++</li>
+                <li className="hover:scale-105 hover:font-bold cursor-context-menu duration-300">Photoshop</li>
               </ul>
             </div>
           </div>
