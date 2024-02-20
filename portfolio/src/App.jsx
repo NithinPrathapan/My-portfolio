@@ -5,6 +5,8 @@ import profile from "./assets/myimg.jpeg";
 import frontend from "./assets/frontend.png";
 import backend from "./assets/backend.png";
 import project from "./assets/project.webp";
+import estate from "./assets/estate.png";
+import grocerry from "./assets/grocerry.png";
 import { useState } from "react";
 import {
   AiFillTwitterCircle,
@@ -77,7 +79,7 @@ const App = () => {
           </div>
         </section>
         <section>
-          <div className="">
+          <div className="max-w-xl text-center my-2 mx-auto">
             <h3 className="text-3xl dark:text-white font-semibold py-1">
               Services I offer
             </h3>
@@ -144,52 +146,147 @@ const App = () => {
             </div>
           </div>
         </section>
+        {/* PROJECT SECTION */}
+       
+        {/*Skills me section */}
+        <section className=" text-center my-2 mx-auto justify-center">
+          <h3 className="text-3xl  dark:text-white font-semibold py-2">
+            Skills
+          </h3>
+
+          <div className="flex flex-wrap gap-10 py-2 mx-auto justify-center">
+            <div className="flex flex-col flex-1 basis-1/3 max-w-[400px] min-w-[200px] rounded-md bg-[#f6f6f6] min-h-[150px] shadow-xl text-center  p-4 items-center justify-center gap-2 hover:scale-105 duration-500 cursor-none">
+              <h1 className="text-teal-600 font-semibold  md:text-xl text-lg">
+                Web Design
+              </h1>
+              <p className="text-xs md:text-lg w-[80%]">
+                I love designs and it's the first step before creating any
+                website as I can give layout to my imagination
+              </p>
+            </div>
+
+            <div className="flex flex-col flex-1 basis-1/3 max-w-[400px] min-w-[200px] rounded-md bg-[#f6f6f6] min-h-[150px] shadow-xl text-center  p-4 items-center justify-center gap-2 hover:scale-105 duration-500 cursor-none">
+              <h1 className="text-teal-600 font-semibold  md:text-xl text-lg">
+                Web Design
+              </h1>
+              <p className="text-xs md:text-lg w-[80%]">
+                I love designs and it's the first step before creating any
+                website as I can give layout to my imagination
+              </p>
+            </div>
+
+            <div className="flex flex-col flex-1 basis-1/3 max-w-[400px] min-w-[200px] rounded-md bg-[#f6f6f6] min-h-[150px] shadow-xl text-center  p-4 items-center justify-center gap-2 hover:scale-105 duration-500 cursor-none">
+              <h1 className="text-teal-600 font-semibold  md:text-xl text-lg">
+                Web Design
+              </h1>
+              <p className="text-xs md:text-lg w-[80%]">
+                I love designs and it's the first step before creating any
+                website as I can give layout to my imagination
+              </p>
+            </div>
+          </div>
+        </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white font-semibold">
-              Portfolio
+          <div className="max-w-xl text-center my-2 mx-auto">
+            <h3 className="text-3xl py-1 dark:text-white font-semibold ">
+              Projects
             </h3>
-            <p className="text-lg leading-8 text-gray-800 dark:text-slate-400">
+            <p className="md:text-lg text-sm leading-8 text-gray-800 dark:text-slate-400">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
               harum consequatur distinctio molestias praesentium! Id culpa Lorem
               ipsum dolor sit amet consectetur, adipisicing elit. Commodi ipsum,
               totam labore ullam eius quas!
             </p>
-            <p className="text-lg leading-8 text-gray-800 dark:text-slate-400">
+            <p className="md:text-lg text-sm leading-8 text-gray-800 dark:text-slate-400">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
               harum consequatur distinctio molestias praesentium! Id culpa
             </p>
           </div>
           <div className="flex flex-wrap md:gap-10 gap-4 py-10 lg:flex lg:flex-wrap">
-            <div className="flex-1  basis-1/3 ">
+            <div className="image md:flex-1 md:basis-1/3 relative">
               <img
-                className="rounded-lg object-cover w-full h-full"
-                src={project}
+                className="rounded-lg object-cover w-full h-full block m-auto"
+                src={grocerry}
                 alt="project"
               />
+              <div
+                className="content top-0 left-0 absolute h-full w-full rounded-lg bg-[#000000c3]
+               items-center flex gap-1 justify-center flex-col opacity-0  transition-all duration-500
+                ease-in-out hover:opacity-100 hover:cursor-pointer text-center"
+              >
+                <h1 className="text-teal-500 md:text-2xl text-center   font-bold ">
+                  Grocerry App
+                </h1>
+                <p className="text-slate-400 w-[80%] md:text-lg text-xs  ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  a autem suscipit ea!
+                </p>
+              </div>
             </div>
-            <div className="flex-1  basis-1/3 ">
+            <div className="image md:flex-1 md:basis-1/3 relative">
               <img
-                className="rounded-lg object-cover w-full h-full"
-                src={project}
+                className="rounded-lg object-cover w-full h-full block m-auto"
+                src={estate}
                 alt="project"
               />
+              <div
+                className="content top-0 left-0 absolute h-full w-full rounded-lg bg-[#000000c3]
+               items-center flex gap-1 justify-center flex-col opacity-0  transition-all duration-500
+                ease-in-out hover:opacity-100 hover:cursor-pointer text-center"
+              >
+                <h1 className="text-teal-500 md:text-2xl text-center   font-bold ">
+                  Real Estate App
+                </h1>
+                <p className="text-slate-400 w-[80%] md:text-lg text-xs ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  a autem suscipit ea!
+                </p>
+              </div>
             </div>
-            <div className="flex-1  basis-1/3 ">
+            <div className="image md:flex-1 md:basis-1/3 relative">
               <img
-                className="rounded-lg object-cover w-full h-full"
-                src={project}
+                className="rounded-lg object-cover w-full h-full block m-auto"
+                src={grocerry}
                 alt="project"
               />
+              <div
+                className="content top-0 left-0 absolute h-full w-full rounded-lg bg-[#000000c3]
+               items-center flex gap-1 justify-center flex-col opacity-0  transition-all duration-500
+                ease-in-out hover:opacity-100 hover:cursor-pointer text-center"
+              >
+                <h1 className="text-teal-500 md:text-2xl text-center   font-bold ">
+                  Grocerry App
+                </h1>
+                <p className="text-slate-400 w-[80%] md:text-lg text-xs  ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  a autem suscipit ea!
+                </p>
+              </div>
             </div>
-            <div className="flex-1  basis-1/3 ">
+            <div className="image md:flex-1 md:basis-1/3 relative">
               <img
-                className="rounded-lg object-cover w-full h-full"
-                src={project}
+                className="rounded-lg object-cover w-full h-full block m-auto"
+                src={estate}
                 alt="project"
               />
+              <div
+                className="content top-0 left-0 absolute h-full w-full rounded-lg bg-[#000000c3]
+               items-center flex gap-1 justify-center flex-col opacity-0  transition-all duration-500
+                ease-in-out hover:opacity-100 hover:cursor-pointer text-center"
+              >
+                <h1 className="text-teal-500 md:text-2xl text-center   font-bold ">
+                  Real Estate App
+                </h1>
+                <p className="text-slate-400 w-[80%] md:text-lg text-xs ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  a autem suscipit ea!
+                </p>
+              </div>
             </div>
           </div>
+        </section>
+        <section>
+
         </section>
       </main>
     </div>
