@@ -6,6 +6,8 @@ export default {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        dancing: "Dancing Script",
+        poppins: "Poppins",
       },
     },
   },
