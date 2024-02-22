@@ -64,9 +64,21 @@ const App = () => {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-4 text-gray-600 dark:text-slate-300">
-            <AiFillInstagram className="cursor-pointer" />
-            <AiFillLinkedin className="cursor-pointer" />
-            <AiFillGithub className="cursor-pointer" />
+            <a
+              href="https://www.instagram.com/_nithin_prathapan_/?igsh=Znh5bHpiaXFidDR0"
+              target="_blank"
+            >
+              <AiFillInstagram className="cursor-pointer" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nithin-prathapan-67a827240/"
+              target="_blank"
+            >
+              <AiFillLinkedin className="cursor-pointer" />
+            </a>
+            <a href="https://github.com/NithinPrathapan" target="_blank">
+              <AiFillGithub className="cursor-pointer" />{" "}
+            </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full md:w-96 md:h-96   w-80 h-80 ">
             <img
@@ -384,14 +396,21 @@ const App = () => {
                   </h1>
                 </div>
                 <div className="flex gap-2">
-                  <button className=" mx-auto  justify-center gap-2 md:text-lg items-center  text-sm font-medium text-center text-white bg-slate-800  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
-                    View Website
-                    <FaEarthAmericas />
-                  </button>
-                  <button className=" mx-auto gap-2  justify-center md:text-lg  items-center  text-sm font-medium text-center text-white bg-slate-800  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
-                    Source Code
-                    <AiFillGithub className="w-5 h-5  " />
-                  </button>
+                  <a href="https://grocerry.vercel.app" target="_blank">
+                    <button className=" mx-auto  justify-center gap-2 md:text-lg items-center  text-sm font-medium text-center text-white bg-slate-800  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                      View Website
+                      <FaEarthAmericas />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/NithinPrathapan/grocerry"
+                    target="_blank"
+                  >
+                    <button className=" mx-auto gap-2  justify-center md:text-lg  items-center  text-sm font-medium text-center text-white bg-slate-800  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                      Source Code
+                      <AiFillGithub className="w-5 h-5  " />
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -439,14 +458,24 @@ const App = () => {
                   </h1>
                 </div>
                 <div className="flex gap-2 ">
-                  <button className=" mx-auto  justify-center md:gap-2 gap-1 md:text-lg  items-center  text-sm font-medium text-center text-white bg-slate-800 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
-                    View Website
-                    <FaEarthAmericas />
-                  </button>
-                  <button className=" mx-auto gap-2  justify-center  items-center md:text-lg  text-sm font-medium text-center text-white bg-slate-800 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
-                    Source Code
-                    <AiFillGithub className="w-5 h-5  " />
-                  </button>
+                  <a
+                    href="https://mern-estate-c7gd.onrender.com"
+                    target="_blank"
+                  >
+                    <button className=" mx-auto  justify-center md:gap-2 gap-1 md:text-lg  items-center  text-sm font-medium text-center text-white bg-slate-800 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                      View Website
+                      <FaEarthAmericas />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/NithinPrathapan/Real-Estate-App"
+                    target="_blank"
+                  >
+                    <button className=" mx-auto gap-2  justify-center  items-center md:text-lg  text-sm font-medium text-center text-white bg-slate-800 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                      Source Code
+                      <AiFillGithub className="w-5 h-5  " />
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
