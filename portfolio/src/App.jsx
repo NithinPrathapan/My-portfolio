@@ -12,6 +12,16 @@ import { useState } from "react";
 import { AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
+  const [message, setMessage] = useState("");
+
+  const handleChange = (e) => {
+    setMessage(e.target.value);
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const mailtoLink = `mailto:nithinprathapan32567@gmail.com?subject=Message from  portfolio form&body=${message}`;
+    window.location.href = mailtoLink;
+  };
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-[#fff] px-5  md:px-20 lg:px-40 dark:bg-gradient-to-t from-[#000] to-slate-900 ">
@@ -39,7 +49,7 @@ const App = () => {
 
               <li>
                 <a
-                  className="bg-gradient-to-r font-poppins from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r font-poppins from-cyan-500  to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"
                 >
                   Resume
@@ -51,7 +61,7 @@ const App = () => {
             <h2 className=" font-dancing text-xl tracking-widest min-w-full text-center text-teal-500 dark:text-white">
               Hi I'm
             </h2>
-            <h2 className="text-4xl font-dancing tracking-widest  min-w-full py-2 md:text-6xl  text-center text-teal-500 font-medium">
+            <h2 className="text-4xl font-dancing tracking-widest  min-w-full py-2 md:text-6xl  drop-shadow-xl text-center text-teal-500 font-medium">
               Nithin Prathpan
             </h2>
             <h3 className="font-poppins uppercase text-2xl  py-2 md:text-3xl font-semibold text-slate-600 dark:text-white">
@@ -111,8 +121,8 @@ const App = () => {
               integrations.
             </p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 max-w-lg mx-auto rounded-xl my-10 dark:text-slate-300 dark:bg-slate-900">
+          <div className="md:flex  gap-4">
+            <div className="text-center flex-1 shadow-lg p-10 max-w-lg mx-auto rounded-xl my-10 dark:text-slate-300 dark:bg-slate-900">
               <img
                 src={frontend}
                 className="w-[100px] h-[100px] mx-auto"
@@ -143,7 +153,7 @@ const App = () => {
               </p>
             </div>
 
-            <div className="text-center max-w-lg mx-auto dark:bg-slate-900 shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center flex-1 max-w-lg mx-auto dark:bg-slate-900 shadow-lg p-10 rounded-xl my-10">
               <img
                 src={backend}
                 className="w-[100px] h-[100px] mx-auto"
@@ -517,10 +527,12 @@ const App = () => {
             </div>
             <div className="text-center  flex flex-col w-full gap-1">
               <form
+                onSubmit={handleSubmit}
                 action=""
                 className=" w-full flex flex-col gap-2 justify-center items-center"
               >
                 <textarea
+                  onChange={handleChange}
                   id="message"
                   className="block p-2.5 w-full min-h-12 rounded-lg outline-none text-sm text-gray-900 bg-gray-50  border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Write your mail here..."
