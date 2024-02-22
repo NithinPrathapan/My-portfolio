@@ -3,7 +3,7 @@ import "./App.css";
 import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { IoSend } from "react-icons/io5";
-import profile from "./assets/profile.jpeg";
+import devd from "./assets/devd.png";
 import frontend from "./assets/frontend.png";
 import backend from "./assets/backend.png";
 import estate from "./assets/estate.png";
@@ -93,7 +93,7 @@ const App = () => {
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full md:w-96 md:h-96   w-80 h-80 ">
             <img
-              src={profile}
+              src={devd}
               alt="profile-image"
               className=" w-full h-full  object-cover rounded-full"
             />
