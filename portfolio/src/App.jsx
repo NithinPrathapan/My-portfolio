@@ -3,7 +3,7 @@ import "./App.css";
 import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { IoSend } from "react-icons/io5";
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.jpeg";
 import frontend from "./assets/frontend.png";
 import backend from "./assets/backend.png";
 import estate from "./assets/estate.png";
