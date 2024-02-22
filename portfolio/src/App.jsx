@@ -368,8 +368,8 @@ const App = () => {
               Projects
             </h3>
           </div>
-          <div className="flex flex-wrap md:gap-12  gap-12 font-poppins py-10 lg:flex lg:flex-wrap">
-            <div className="bg-[#ececec]  max-w-[400px]  p-2 border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
+          <div className="flex flex-wrap md:gap-12  gap-4 font-poppins py-10 md:flex md:flex-wrap">
+            <div className="bg-slate-900   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
               <img
                 className="rounded-t-lg hover:scale-105 object-cover w-full  transition ease-in-out  duration-500"
                 src={grocerry}
@@ -377,28 +377,28 @@ const App = () => {
               />
 
               <div className="md:p-5 p-2">
-                <h5 className="mb-2 text-center  md:text-2xl text-lg font-bold tracking-tight text-gray-900 ">
+                <h5 className="mb-2 text-center  md:text-2xl text-lg font-bold tracking-tight text-slate-200 ">
                   Grocerry App
                 </h5>
 
-                <p className="mb-3 text-center font-normal text-gray-700 ">
+                <p className="mb-3 text-center font-normal text-slate-300 ">
                   It has been developed using React.js and designed using CSS.
                   It includes modern and responsive design.
                 </p>
                 <div className="flex gap-2 flex-wrap py-2 justify-center items-center">
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-blue-50 hover:bg-opacity-100 cursor-context-menu bg-opacity-50 p-1 rounded-lg">
                     React.js
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-blue-50 hover:bg-opacity-100 cursor-context-menu bg-opacity-50 p-1 rounded-lg">
                     CSS
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-blue-50 hover:bg-opacity-100 cursor-context-menu bg-opacity-50 p-1 rounded-lg">
                     Javascript
                   </h1>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex items-center justify-center gap-2">
                   <a href="https://grocerry.vercel.app" target="_blank">
-                    <button className=" mx-auto  justify-center gap-2 md:text-lg items-center  text-sm font-medium text-center text-white bg-slate-800  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                    <button className=" mx-auto  justify-center gap-2 md:text-lg items-center  text-sm font-medium text-center text-black bg-slate-300  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-400 duration-200 flex ">
                       View Website
                       <FaEarthAmericas />
                     </button>
@@ -407,7 +407,7 @@ const App = () => {
                     href="https://github.com/NithinPrathapan/grocerry"
                     target="_blank"
                   >
-                    <button className=" mx-auto gap-2  justify-center md:text-lg  items-center  text-sm font-medium text-center text-white bg-slate-800  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                    <button className=" mx-auto gap-2  justify-center md:text-lg  items-center  text-sm font-medium text-center text-black bg-slate-300  md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-400 duration-200 flex ">
                       Source Code
                       <AiFillGithub className="w-5 h-5  " />
                     </button>
@@ -416,7 +416,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="bg-[#ececec]  max-w-[400px]  p-2 border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
+            <div className="bg-slate-900   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
               <img
                 className="rounded-t-lg hover:scale-105 object-cover w-full  transition ease-in-out  duration-500"
                 src={estate}
@@ -424,46 +424,46 @@ const App = () => {
               />
 
               <div className="p-5">
-                <h5 className="mb-2 text-center md:text-2xl text-lg font-bold tracking-tight text-gray-900 ">
+                <h5 className="mb-2 text-center md:text-2xl text-lg font-bold tracking-tight text-slate-200 ">
                   Real Estate Application
                 </h5>
 
-                <p className="mb-3 text-center md:text-lg text-sm  text-gray-700 ">
+                <p className="mb-3 text-center md:text-lg text-sm  text-slate-300 ">
                   It has been developed using MERN Stack and designed using
                   Tailwind CSS. It includes modern and responsive design.
                 </p>
                 <div className="flex gap-2 flex-wrap py-2 justify-center items-center">
-                  <h1 className="text-blue-800 md:text-sm text-xs  bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs  bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     React.js
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     Node.js
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     Express.js
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     MongoDB
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     JWT
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     Redux Toolkit
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     Tailwind
                   </h1>
-                  <h1 className="text-blue-800 md:text-sm text-xs bg-blue-100 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
                     Firebase
                   </h1>
                 </div>
-                <div className="flex gap-2 ">
+                <div className="flex items-center justify-center gap-2 ">
                   <a
                     href="https://mern-estate-c7gd.onrender.com"
                     target="_blank"
                   >
-                    <button className=" mx-auto  justify-center md:gap-2 gap-1 md:text-lg  items-center  text-sm font-medium text-center text-white bg-slate-800 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                    <button className=" mx-auto  justify-center md:gap-2 gap-1 md:text-lg  items-center  text-sm font-medium text-center text-black bg-slate-300 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-400 duration-200 flex ">
                       View Website
                       <FaEarthAmericas />
                     </button>
@@ -472,7 +472,7 @@ const App = () => {
                     href="https://github.com/NithinPrathapan/Real-Estate-App"
                     target="_blank"
                   >
-                    <button className=" mx-auto gap-2  justify-center  items-center md:text-lg  text-sm font-medium text-center text-white bg-slate-800 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-700 duration-200 flex ">
+                    <button className=" mx-auto gap-2  justify-center  items-center md:text-lg  text-sm font-medium text-center text-black bg-slate-300 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-400 duration-200 flex ">
                       Source Code
                       <AiFillGithub className="w-5 h-5  " />
                     </button>
