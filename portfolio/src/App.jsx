@@ -50,7 +50,7 @@ const App = () => {
               <li>
                 <a
                   className="bg-gradient-to-r font-poppins from-cyan-500  to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://drive.google.com/file/d/12alI_iGd_qdrirs83b6ts4mvJzOffJjL/view?usp=sharing"
                 >
                   Resume
                 </a>
