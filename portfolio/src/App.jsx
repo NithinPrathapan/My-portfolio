@@ -8,6 +8,7 @@ import frontend from "./assets/frontend.png";
 import backend from "./assets/backend.png";
 import estate from "./assets/estate.png";
 import grocerry from "./assets/grocerry.png";
+import nike from "./assets/nike.png";
 import { useState } from "react";
 import { AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
 const App = () => {
@@ -480,6 +481,54 @@ const App = () => {
                   </a>
                   <a
                     href="https://github.com/NithinPrathapan/Real-Estate-App"
+                    target="_blank"
+                  >
+                    <button className=" mx-auto gap-2  justify-center  items-center md:text-lg  text-sm font-medium text-center text-black bg-slate-300 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-400 duration-200 flex ">
+                      Source Code
+                      <AiFillGithub className="w-5 h-5  " />
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="bg-slate-900   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
+              <img
+                className="rounded-t-lg hover:scale-105 object-cover w-full  transition ease-in-out  duration-500"
+                src={nike}
+                alt="nike"
+              />
+
+              <div className="p-5">
+                <h5 className="mb-2 text-center md:text-2xl text-lg font-bold tracking-tight text-slate-200 ">
+                  Nike Store landing page
+                </h5>
+
+                <p className="mb-3 text-center md:text-lg text-sm  text-slate-300 ">
+                  It has been developed using React.js and designed using CSS.
+                  It includes modern and responsive design.
+                </p>
+                <div className="flex gap-2 flex-wrap py-2 justify-center items-center">
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs  bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                    React.js
+                  </h1>
+
+                 
+                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                    Tailwind
+                  </h1>
+                </div>
+                <div className="flex items-center justify-center gap-2 ">
+                  <a
+                    href="https://nike-store-blond-iota.vercel.app/"
+                    target="_blank"
+                  >
+                    <button className=" mx-auto  justify-center md:gap-2 gap-1 md:text-lg  items-center  text-sm font-medium text-center text-black bg-slate-300 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-400 duration-200 flex ">
+                      View Website
+                      <FaEarthAmericas />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/NithinPrathapan/nike_store"
                     target="_blank"
                   >
                     <button className=" mx-auto gap-2  justify-center  items-center md:text-lg  text-sm font-medium text-center text-black bg-slate-300 md:px-4 px-2 md:py-3 py-2 rounded-lg hover:bg-slate-400 duration-200 flex ">
