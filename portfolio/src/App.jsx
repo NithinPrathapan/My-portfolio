@@ -380,7 +380,7 @@ const App = () => {
             </h3>
           </div>
           <div className="flex flex-wrap md:gap-12  gap-4 font-poppins py-10 md:flex md:flex-wrap">
-            <div className="bg-slate-900   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
+            <div className="   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
               <img
                 className="rounded-t-lg hover:scale-105 object-cover w-full  transition ease-in-out  duration-500"
                 src={grocerry}
@@ -388,22 +388,22 @@ const App = () => {
               />
 
               <div className="md:p-5 p-2">
-                <h5 className="mb-2 text-center  md:text-2xl text-lg font-bold tracking-tight text-slate-200 ">
+                <h5 className="mb-2 text-center  md:text-2xl text-lg font-bold tracking-tight text-slate-900 dark:text-slate-200">
                   Grocerry App
                 </h5>
 
-                <p className="mb-3 text-center font-normal text-slate-300 ">
+                <p className="mb-3 text-center font-normal text-slate-900 dark:text-slate-200 ">
                   It has been developed using React.js and designed using CSS.
                   It includes modern and responsive design.
                 </p>
                 <div className="flex gap-2 flex-wrap py-2 justify-center items-center">
-                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-blue-50 hover:bg-opacity-100 cursor-context-menu bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-white  cursor-context-menu  p-1 rounded-lg">
                     React.js
                   </h1>
-                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-blue-50 hover:bg-opacity-100 cursor-context-menu bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-white  cursor-context-menu  p-1 rounded-lg">
                     CSS
                   </h1>
-                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-blue-50 hover:bg-opacity-100 cursor-context-menu bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold md:text-sm text-xs bg-white  cursor-context-menu  p-1 rounded-lg">
                     Javascript
                   </h1>
                 </div>
@@ -427,7 +427,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="bg-slate-900   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
+            <div className="   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
               <img
                 className="rounded-t-lg hover:scale-105 object-cover w-full  transition ease-in-out  duration-500"
                 src={estate}
@@ -435,37 +435,37 @@ const App = () => {
               />
 
               <div className="p-5">
-                <h5 className="mb-2 text-center md:text-2xl text-lg font-bold tracking-tight text-slate-200 ">
+                <h5 className="mb-2 text-center md:text-2xl text-lg font-bold tracking-tight text-slate-900 dark:text-slate-200 ">
                   Real Estate Application
                 </h5>
 
-                <p className="mb-3 text-center md:text-lg text-sm  text-slate-300 ">
+                <p className="mb-3 text-center md:text-lg text-sm  text-slate-900 dark:text-slate-200 ">
                   It has been developed using MERN Stack and designed using
                   Tailwind CSS. It includes modern and responsive design.
                 </p>
                 <div className="flex gap-2 flex-wrap py-2 justify-center items-center">
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs  bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs  bg-white  p-1 rounded-lg">
                     React.js
                   </h1>
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white  p-1 rounded-lg">
                     Node.js
                   </h1>
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white  p-1 rounded-lg">
                     Express.js
                   </h1>
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white  p-1 rounded-lg">
                     MongoDB
                   </h1>
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white  p-1 rounded-lg">
                     JWT
                   </h1>
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white  p-1 rounded-lg">
                     Redux Toolkit
                   </h1>
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white  p-1 rounded-lg">
                     Tailwind
                   </h1>
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white  p-1 rounded-lg">
                     Firebase
                   </h1>
                 </div>
@@ -491,29 +491,28 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-slate-900   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
+            <div className="   max-w-[400px]   border-none flex flex-col mx-auto justify-center items-center border  rounded-lg shadow ">
               <img
-                className="rounded-t-lg hover:scale-105 object-cover w-full  transition ease-in-out  duration-500"
+                className="rounded-t-lg hover:scale-105 object-fill w-full  transition ease-in-out  duration-500"
                 src={nike}
                 alt="nike"
               />
 
               <div className="p-5">
-                <h5 className="mb-2 text-center md:text-2xl text-lg font-bold tracking-tight text-slate-200 ">
+                <h5 className="mb-2 text-center md:text-2xl text-lg font-bold tracking-tight dark:text-slate-200 ">
                   Nike Store landing page
                 </h5>
 
-                <p className="mb-3 text-center md:text-lg text-sm  text-slate-300 ">
-                  It has been developed using React.js and designed using CSS.
-                  It includes modern and responsive design.
+                <p className="mb-3 text-center md:text-lg text-sm  text-slate-900 dark:text-slate-200 ">
+                  It has been developed using React.js and designed using
+                  Tailwind CSS. It includes modern and responsive design.
                 </p>
                 <div className="flex gap-2 flex-wrap py-2 justify-center items-center">
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs  bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs  bg-white p-1 rounded-lg">
                     React.js
                   </h1>
 
-                 
-                  <h1 className="text-slate-800 font-semibold hover:bg-opacity-100 cursor-context-menu md:text-sm text-xs bg-blue-50 bg-opacity-50 p-1 rounded-lg">
+                  <h1 className="text-slate-800 font-semibold  cursor-context-menu md:text-sm text-xs bg-white p-1 rounded-lg">
                     Tailwind
                   </h1>
                 </div>
